@@ -9,3 +9,18 @@ Polina Rozenshtein, Giulia Preti, Aristides Gionis, and Yannis Velegrakis. "Mini
 
 This C implementation of Parametric MinCut is based on the implementation from Chandran, Bala G., and Dorit S. Hochbaum. "A computational study of the pseudoflow and push-relabel algorithms for the maximum flow problem." Operations research 57.2 (2009): 358-376.)
 
+### main code in Python 3.6
+* list of dependencies requirements.txt
+* installation: pip3 install -r requirements.txt
+
+### running DenSim
+* run ``construct_metagraph.py`` to create a metagraph for MinCut input
+* run ``main.py`` on the constructed metagraph
+* use ``-h`` for arguments
+
+### running baselines
+* run ``construct_baseline.py`` to create metagraphs
+* run ``main_baseline.py`` on the constructed metagraph
+* use ``-h`` for arguments
+
+
